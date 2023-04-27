@@ -1,0 +1,31 @@
+{
+  "name": "03-node-ignite-solid",
+  "version": "1.0.0",
+  "description": "- Projeto desenvolvido no Terceiro Módulo da Trilha de Nodejs do Ignite - Rocketseat.",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "tsx watch src/server.ts",
+    "start": "node build/server.js",
+    "build": "tsup src --out-dir build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedroVeras18/03-node-ignite-solid.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PedroVeras18/03-node-ignite-solid/issues"
+  },
+  "homepage": "https://github.com/PedroVeras18/03-node-ignite-solid#readme",
+  "devDependencies": {
+    "@types/node": "^18.16.1",
+    "tsup": "^6.7.0",
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "fastify": "^4.17.0"
+  }
+}
