@@ -5,7 +5,7 @@
 - Integração com Prisma ORM
 - Princípios SOLID
 - Design Patterns
-- Testes
+- Testes com Vitest
 - Docker
 - JWT e Refresh Token
 - RBAC
