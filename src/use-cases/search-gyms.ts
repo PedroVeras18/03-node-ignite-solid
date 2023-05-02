@@ -6,7 +6,7 @@ interface SearchGymsUseCaseRequest {
     page: number
 }
 
-interface RegisterUseResponse {
+interface SearchGymsUseCaseResponse {
     gyms: Gym[]
 }
 
@@ -16,7 +16,7 @@ export class SearchGymsUseCase {
     async execute({
         query,
         page,
-    }: SearchGymsUseCaseRequest): Promise<RegisterUseResponse> {
+    }: SearchGymsUseCaseRequest): Promise<SearchGymsUseCaseResponse> {
         const gyms = await this.gymsRepository.searchMany(query, page)
 
         return {
