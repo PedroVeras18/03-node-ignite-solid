@@ -1,7 +1,6 @@
 import { InMemoryGymsRepository } from '@/repositories/in-memory/in-memory-gyms-repository'
 import { expect, describe, it, beforeEach } from 'vitest'
-import { SearchGymsUseCase } from './search-gyms'
-import { FetchNearbyGymsUseCase } from './fetch-nearby-gyms'
+import { FetchNearbyGymsUseCase } from '../fetch-nearby-gyms'
 
 let gymsRepository: InMemoryGymsRepository
 let sut: FetchNearbyGymsUseCase
