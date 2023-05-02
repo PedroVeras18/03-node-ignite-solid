@@ -1,5 +1,5 @@
 import { expect, describe, it, beforeEach } from 'vitest'
-import { GetUserMetricsUseCase } from './get-user-metrics'
+import { GetUserMetricsUseCase } from '../get-user-metrics'
 import { InMemoryCheckInsRepository } from '@/repositories/in-memory/in-memory-check-ins-repository'
 
 let checkInsRepository: InMemoryCheckInsRepository

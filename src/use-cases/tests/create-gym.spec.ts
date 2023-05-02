@@ -1,4 +1,4 @@
-import { CreateGymUseCase } from './create-gym'
+import { CreateGymUseCase } from '../create-gym'
 import { expect, describe, it, beforeEach } from 'vitest'
 import { InMemoryGymsRepository } from '@/repositories/in-memory/in-memory-gyms-repository'
 
