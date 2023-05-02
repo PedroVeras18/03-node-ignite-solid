@@ -21,7 +21,7 @@ describe('Check-in Use Case', () => {
       title: 'JavaScript Gym',
       description: '',
       phone: '',
-      latitude:-27.2092052,
+      latitude: -27.2092052,
       longitude: -49.6401091,
     })
 
